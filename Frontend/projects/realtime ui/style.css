@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#back{
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgb(6, 17, 48);
+}
+#timer{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 290px;
+    /* background-color: red; */
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    margin-left: 5%;
+
+    /* background-color: yellow; */
+}
+.links .block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width:100%;
+    height: 246px;
+    /* background-color: red; */
+    margin-top: 30px;
+    border-radius: 20px;
+    /* border: 5px solid rgb(124, 167, 218); */
+    font-family: montserrat;
+    font-size:60px ;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.links h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    font-family: montserrat;
+}
+#dayw{
+    font-size: 40px;
+    background-color:#f82929 ;
+    border: 5px solid #f55240;
+}
+#hoursw{
+    background-color:#3498db ;
+    border: 5px solid #0099ff;
+}
+#minutesw{
+    background-color:#2ecc71 ;
+    border: 5px solid #52ce85;
+}#secondsw{
+    background-color:#f39c12;
+    border: 5px solid #f1b350;
+}
